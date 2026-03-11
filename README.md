@@ -1,20 +1,18 @@
-# Python Quotes Web Scraper
+# Quotes Web Scraper
 
-This is a simple web scraping project built with Python.
+A simple Python web scraping project that extracts quotes and authors from http://quotes.toscrape.com.
 
-The script extracts quotes and authors from the website:
-http://quotes.toscrape.com
+## Features
+- Scrapes quotes from multiple pages
+- Extracts quote text and author
+- Uses Python, Requests and BeautifulSoup
 
-## Technologies Used
-
+## Technologies
 - Python
 - Requests
 - BeautifulSoup
 
-## Output
+## Example Output
 
-The program collects quotes from multiple pages and prints them or saves them into a CSV file.
-
-## Purpose
-
-This project was created for learning web scraping and building a programming portfolio.
+Quote, Author
+"The world as we have created it...", Albert Einstein
